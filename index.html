@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Lab 5</title>
+    <script>
+// Question Number One
+        function sum(array){
+               return array.filter(eachValue=> eachValue > 20).reduce((accum,next) => accum + next);
+        }
+
+//Question Number Two
+        const getNewArray = function(array){ return array.filter(eachString => (eachString.length >= 5 && eachString.includes('a')))};
+        console.log("This is the sum "+sum([2,3,4,5,122,33,22,33,44,55,1,2,34,45]));
+        console.log("This is the newArray "+getNewArray(["apple","Banana","Mangoo","Coconut"]));
+
+        
+    </script>
+    </head>
+
+    <body>
+        
+    </body>
+</html>
